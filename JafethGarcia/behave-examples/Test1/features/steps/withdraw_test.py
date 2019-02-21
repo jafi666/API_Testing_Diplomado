@@ -13,7 +13,7 @@ def step_impl(context, fixed_amount):
 
 @then(u'I should receive ${cash:d} cash')
 def step_impl(context, cash):
-    print('This is your', cash)
+    print('This is your cash', cash)
 
 
 @then(u'the balance of my account should be ${balance:d}')
